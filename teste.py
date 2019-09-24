@@ -13,9 +13,6 @@ tm = (len(nome))
 # Recebe uma confirmação do usuário
 conf = input('Ola {} !! Sua idade é de {} anos ? (S / N) :  '.format(nome, idade)).upper
 
-# Recebe a resposta S ou N
-resp = conf
-
 # Condição
 if conf == ('S') :
     print('Que bom que está certo :)')
