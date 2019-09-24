@@ -1,6 +1,3 @@
-# Importa do módulo datatime
-import datetime
-
 # Recebe o nome do usúario
 nome = input('Ola! Me diga qual o seu nome : ')
 
@@ -11,11 +8,18 @@ idade = int(input('Qual a sua idade ? '))
 tm = (len(nome))
 
 # Recebe uma confirmação do usuário
-conf = input('Ola {} !! Sua idade é de {} anos ? (S / N) :  '.format(nome, idade)).upper
+conf = input('Ola {} !! Sua idade é de {} anos ! \nAs informações estão corretas ? (S / N) :  '.format(nome, idade)).upper
+s = 's' in conf
+print(s)
+# Condição 
+#ainda não funciona...
+if  conf == ('S') :
+            print('Que bom que está certo :)')
 
-# Condição
-if conf == ('S') :
-    print('Que bom que está certo :)')
-else :
-    nome = input ('Qual deseja alterar o nome ou a idade ? ')
-    
+elif conf == ('N') :
+    nome = input('O que deseja alterar ? O nome ou a idade ? ').upper
+    if nome == ('NOME') :
+       nome2 = input('Digite seu nome : ')
+       print(f'Nome alterado !\Ola {nome2} seja bem-vindo !')
+   
+
