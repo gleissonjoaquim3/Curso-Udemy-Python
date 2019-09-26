@@ -5,7 +5,7 @@ idade = int(input('Qual a sua idade ? '))
 # Printa o nome e idade do usuário
 print(f'Ola {nome} !! Sua idade é de {idade} anos !')
 
-resp = str(input('Seu nome e idade estão corretos ? (S / N) ? ')).upper
+resp = str(input('Seu nome e idade estão corretos ? (S / N) ? '))
 # Condição
 #ainda não funciona...
 if  resp == 'S' :
