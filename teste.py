@@ -9,11 +9,10 @@ tm = (len(nome))
 
 # Recebe uma confirmação do usuário
 conf = input('Ola {} !! Sua idade é de {} anos ! \nAs informações estão corretas ? (S / N) :  '.format(nome, idade)).upper
-s = 's' in conf
-print(s)
+print (-=*10)
 # Condição 
 #ainda não funciona...
-if  conf == ('S') :
+if  conf == 'S' :
             print('Que bom que está certo :)')
 
 elif conf == ('N') :
