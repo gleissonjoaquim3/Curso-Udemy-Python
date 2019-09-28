@@ -1,3 +1,2 @@
-# teste
-Repositório de python para teste
-TEste de push
+# Repositório para Curso de Python 3
+Repositório de python Curso de Python 3
