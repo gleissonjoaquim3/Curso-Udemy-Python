@@ -20,5 +20,7 @@ if  resp == 'N' :
 #       print('Não endenti...')
 else :
     print('Que bom que está certo :)')
+print('tenha um Bom Dia !! ')
+    
 
 
